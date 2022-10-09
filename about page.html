@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Information</title>
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1>Contact Me!</h1>
+                <p>Send your message</p>
+                
+            </header>
+            <form action="./thanks.html" netlify method="post">
+                <fieldset>
+                    <legend>I Will be glad to answer any of your questions</legend>
+                    <p>
+                        <label for="first name">first name:</label><br>
+                        <input type="text" name="name" id="name">
+
+                    </p>
+                    
+                    <p>
+                        <label for="last name">last name:</label><br>
+                        <input type="text" last name="last name" id="last name">
+
+                    </p>
+                    <p>
+                        <label for="email address">email address:</label><br>
+                        <input type="text" email address="email address" id="email address">
+
+                    </p>
+
+                    <p>
+                        <label for="phone number">phone number:</label><br>
+                        <input type="text" phone number="phone number" id="phone number">
+
+                    </p>
+
+                    <div class="row">
+                        <label class="required" for="message">Your message:</label><br />
+                        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                        <span id="message_validation" class="error_message"></span>
+                      </div>
+
+                      <p>
+                        <input type="submit" value="submit">
+                    </p>
+                    </form>
+
+                </fieldset>
+        </main>
+    </body>
+    </html>
+
